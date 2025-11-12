@@ -16,9 +16,9 @@ logging.basicConfig(level=logging.INFO)
 
 def start_background_music(state):
     if state in {GameState.MENU, GameState.NICKNAME_INPUT, GameState.LOAD_GAME}:
-        music_file = 'GalacticGladiators/utils/audio/menu-background-theme.mp3'
+        music_file = 'utils/audio/menu-background-theme.mp3'
     elif state == GameState.PLAYING:
-        music_file = 'GalacticGladiators/utils/audio/game-background-theme.mp3'
+        music_file = 'utils/audio/game-background-theme.mp3'
     else:
         return
 

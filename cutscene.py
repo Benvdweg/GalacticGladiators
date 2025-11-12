@@ -19,7 +19,7 @@ class Cutscene:
                 for _ in range(100)]
 
     def load_spaceship(self):
-        spaceship = pygame.image.load('GalacticGladiators/utils/images/spaceship.png')
+        spaceship = pygame.image.load('utils/images/spaceship.png')
         return pygame.transform.scale(spaceship, (100, 100))
 
     def draw_stars(self):
@@ -148,7 +148,7 @@ class Cutscene:
             pygame.time.delay(15)
 
     def play(self):
-        pygame.mixer.music.load("GalacticGladiators/utils/audio/battle-theme.mp3")
+        pygame.mixer.music.load("utils/audio/battle-theme.mp3")
         pygame.mixer.music.play(-1)
 
         self.animate_spaceship()
@@ -164,12 +164,12 @@ class Cutscene:
 
     def play_end_scene(self, winner, score, player_won):
         if player_won:
-            pygame.mixer.music.load("GalacticGladiators/utils/audio/victory-theme.mp3")
+            pygame.mixer.music.load("utils/audio/victory-theme.mp3")
 
         elif player_won is False:
-            pygame.mixer.music.load("GalacticGladiators/utils/audio/defeat-theme.mp3")
+            pygame.mixer.music.load("utils/audio/defeat-theme.mp3")
         else:
-            pygame.mixer.music.load("GalacticGladiators/utils/audio/draw-theme.mp3")
+            pygame.mixer.music.load("utils/audio/draw-theme.mp3")
         pygame.mixer.music.play(-1)
 
         self.animate_spaceship()
