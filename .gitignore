@@ -54,3 +54,5 @@ src_c/_sprite.c
 src_c/pypm.c
 GalacticGladiators/config.py
 /GalacticGladiators/__pycache__
+
+.venv/

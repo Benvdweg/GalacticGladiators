@@ -3,13 +3,13 @@ import sys
 import logging
 import pygame.mixer
 
-from GalacticGladiators.utils.constants import Constants
-from GalacticGladiators.utils.game_states import GameState
+from utils.constants import Constants
+from utils.game_states import GameState
 from gameboard import GameBoard
 from database_connector import connect_to_database
-from GalacticGladiators.controllers.game_controller import GameController
-from GalacticGladiators.controllers.menu_controller import MenuController
-from GalacticGladiators.DAL.player_dao import PlayerDAO
+from controllers.game_controller import GameController
+from controllers.menu_controller import MenuController
+from DAL.player_dao import PlayerDAO
 
 logging.basicConfig(level=logging.INFO)
 
