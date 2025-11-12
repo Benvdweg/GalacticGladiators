@@ -49,8 +49,6 @@ config = {
 }
 ```
 
-3. The game will automatically create the necessary tables on first run (assuming your DAO classes handle table creation, or you may need to run a database schema script if provided).
-
 ## Usage
 
 ### Starting the Game
