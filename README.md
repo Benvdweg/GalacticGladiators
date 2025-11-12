@@ -36,11 +36,7 @@ pip install -r requirements.txt
 
 ### Database Setup
 
-1. Create a MySQL database named `galactic_gladiators`:
-
-```sql
-CREATE DATABASE galactic_gladiators;
-```
+1. Import the SQL dump to create the database, tables, and initial data
 
 2. Update the database configuration in `config.py`:
 
