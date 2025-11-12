@@ -2,7 +2,7 @@ import time
 
 import pygame
 
-from GalacticGladiators.utils.constants import Constants
+from utils.constants import Constants
 
 
 class MenuView:

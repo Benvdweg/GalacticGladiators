@@ -1,5 +1,5 @@
 import random
-from GalacticGladiators.models.player_model import PlayerModel
+from models.player_model import PlayerModel
 
 
 class PlayerDAO:

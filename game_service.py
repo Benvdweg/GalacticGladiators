@@ -1,7 +1,7 @@
 import random
 import logging
-from GalacticGladiators.utils.constants import Constants
-from GalacticGladiators.decorators import power_expiration_check
+from utils.constants import Constants
+from decorators import power_expiration_check
 
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)

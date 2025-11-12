@@ -1,17 +1,17 @@
-from GalacticGladiators.DAL.unit_dao import UnitDAO
-from GalacticGladiators.DAL.game_dao import GameDAO
-from GalacticGladiators.DAL.special_powers_log_dao import SpecialPowersLogDAO
-from GalacticGladiators.DAL.squares_dao import SquaresDAO
-from GalacticGladiators.DAL.square_log_dao import SquareLogDAO
-from GalacticGladiators.DAL.game_unit_dao import GameUnitDAO
-from GalacticGladiators.ai_player import AiPlayer
-from GalacticGladiators.button import Button
-from GalacticGladiators.game_service import GameService
-from GalacticGladiators.DAL.player_dao import PlayerDAO
+from DAL.unit_dao import UnitDAO
+from DAL.game_dao import GameDAO
+from DAL.special_powers_log_dao import SpecialPowersLogDAO
+from DAL.squares_dao import SquaresDAO
+from DAL.square_log_dao import SquareLogDAO
+from DAL.game_unit_dao import GameUnitDAO
+from ai_player import AiPlayer
+from button import Button
+from game_service import GameService
+from DAL.player_dao import PlayerDAO
 import pygame
-from GalacticGladiators.cutscene import Cutscene
-from GalacticGladiators.human_player import HumanPlayer
-from GalacticGladiators.utils.constants import Constants
+from cutscene import Cutscene
+from human_player import HumanPlayer
+from utils.constants import Constants
 
 
 class GameController:

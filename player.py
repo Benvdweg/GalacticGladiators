@@ -1,6 +1,6 @@
 from abc import ABC
 
-from GalacticGladiators.utils.constants import Constants
+from utils.constants import Constants
 
 
 class Player(ABC):

@@ -1,9 +1,8 @@
 import pygame
-from GalacticGladiators.button import Button
-from GalacticGladiators.DAL.squares_dao import SquaresDAO
-from GalacticGladiators.DAL.game_unit_dao import GameUnitDAO
-from GalacticGladiators.unit import Scout, Infantry, Sniper, ShieldBearer, BattleMaster, Commando, Flag
-from GalacticGladiators.utils.constants import Constants
+from DAL.squares_dao import SquaresDAO
+from DAL.game_unit_dao import GameUnitDAO
+from unit import Scout, Infantry, Sniper, ShieldBearer, BattleMaster, Commando, Flag
+from utils.constants import Constants
 
 
 class GameBoard:

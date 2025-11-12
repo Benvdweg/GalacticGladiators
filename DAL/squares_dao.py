@@ -1,5 +1,5 @@
-from GalacticGladiators.models.square_model import SquareModel
-from GalacticGladiators.models.game_unit_model import GameUnitModel
+from models.square_model import SquareModel
+from models.game_unit_model import GameUnitModel
 
 
 class SquaresDAO:

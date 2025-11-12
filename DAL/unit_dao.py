@@ -1,4 +1,4 @@
-from GalacticGladiators.models.unit_model import UnitModel
+from models.unit_model import UnitModel
 
 
 class UnitDAO:

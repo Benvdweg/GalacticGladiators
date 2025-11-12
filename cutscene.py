@@ -1,7 +1,7 @@
 import pygame
 import random
 
-from GalacticGladiators.utils.constants import Constants
+from utils.constants import Constants
 
 
 class Cutscene:

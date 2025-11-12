@@ -1,4 +1,4 @@
-from GalacticGladiators.models.square_log_model import SquareLogModel
+from models.square_log_model import SquareLogModel
 
 class SquareLogDAO:
     def __init__(self, cnx):

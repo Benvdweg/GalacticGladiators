@@ -1,11 +1,11 @@
 import random
 from abc import ABC, abstractmethod
 
-from GalacticGladiators.DAL.game_dao import GameDAO
-from GalacticGladiators.DAL.game_unit_dao import GameUnitDAO
-from GalacticGladiators.DAL.player_dao import PlayerDAO
-from GalacticGladiators.DAL.special_powers_log_dao import SpecialPowersLogDAO
-from GalacticGladiators.DAL.squares_dao import SquaresDAO
+from DAL.game_dao import GameDAO
+from DAL.game_unit_dao import GameUnitDAO
+from DAL.player_dao import PlayerDAO
+from DAL.special_powers_log_dao import SpecialPowersLogDAO
+from DAL.squares_dao import SquaresDAO
 
 
 class Unit(ABC):

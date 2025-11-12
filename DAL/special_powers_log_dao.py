@@ -1,4 +1,4 @@
-from GalacticGladiators.models.special_powers_log_model import SpecialPowersLogModel
+from models.special_powers_log_model import SpecialPowersLogModel
 
 
 class SpecialPowersLogDAO:

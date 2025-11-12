@@ -1,6 +1,6 @@
-from GalacticGladiators.player import Player
-from GalacticGladiators.utils.constants import Constants
-from GalacticGladiators.utils.game_states import GameState
+from player import Player
+from utils.constants import Constants
+from utils.game_states import GameState
 
 
 class HumanPlayer(Player):

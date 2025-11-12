@@ -1,4 +1,4 @@
-from GalacticGladiators.models.game_unit_model import GameUnitModel
+from models.game_unit_model import GameUnitModel
 
 
 class GameUnitDAO:

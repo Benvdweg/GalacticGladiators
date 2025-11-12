@@ -1,9 +1,9 @@
 import random
 
-from GalacticGladiators.game_service import logger
-from GalacticGladiators.player import Player
-from GalacticGladiators.unit import Commando, Scout, Sniper, BattleMaster, ShieldBearer
-from GalacticGladiators.utils.constants import Constants
+from game_service import logger
+from player import Player
+from unit import Commando, Scout, Sniper, BattleMaster, ShieldBearer
+from utils.constants import Constants
 
 
 class AiPlayer(Player):

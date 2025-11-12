@@ -1,9 +1,9 @@
 import pygame
 
-from GalacticGladiators.utils.constants import Constants
-from GalacticGladiators.utils.game_states import GameState
-from GalacticGladiators.views.menu_view import MenuView
-from GalacticGladiators.DAL.game_dao import GameDAO
+from utils.constants import Constants
+from utils.game_states import GameState
+from views.menu_view import MenuView
+from DAL.game_dao import GameDAO
 
 
 class MenuController:
