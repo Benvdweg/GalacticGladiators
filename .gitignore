@@ -52,7 +52,7 @@ src_c/_sdl2/sdl2.c
 src_c/_sdl2/video.c
 src_c/_sprite.c
 src_c/pypm.c
-GalacticGladiators/config.py
-/GalacticGladiators/__pycache__
+config.py
+/__pycache__
 
 .venv/
